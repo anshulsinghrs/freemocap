@@ -1,0 +1,17 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+# Pose models are downloaded at build time (see app/build.gradle.kts), not committed.
+app/src/main/assets/*.task
+# Unity
+ar/**/[Ll]ibrary/
+ar/**/[Tt]emp/
+ar/**/[Oo]bj/
+ar/**/[Bb]uild/
+ar/**/[Ll]ogs/
